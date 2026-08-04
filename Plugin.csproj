@@ -21,3 +21,7 @@
   </ItemGroup>
 
 </Project>
+
+<Reference Include="Apex">
+  <HintPath>C:\Path\To\Rust\RustClient_Data\Managed\Apex.dll</HintPath>
+</Reference>
