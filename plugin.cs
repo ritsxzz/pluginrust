@@ -1,6 +1,9 @@
+using System;
 using BepInEx;
 using UnityEngine;
-
+// Обязательно добавь эти строки, где живет ConsoleSystem:
+using Network;
+using Apex;
 namespace MyCustomPlugin
 {
     [BepInPlugin("com.myproject.serverconnector", "Server Connector", "1.0.0")]
