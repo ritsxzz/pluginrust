@@ -13,13 +13,6 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
-      - name: Create libs directory
-        run: mkdir libs
-
-      - name: Download Rust Assembly-CSharp
-        run: |
-          Invoke-WebRequest -Uri "https://github.com/citronbox/Rust-DLLs/raw/main/Assembly-CSharp.dll" -OutFile "libs/Assembly-CSharp.dll"
-
       - name: Build Solution
         run: dotnet build --configuration Release
 
